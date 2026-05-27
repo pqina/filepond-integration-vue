@@ -1,9 +1,9 @@
 <script setup lang="ts">
-// filepond imports
+// FilePond imports
 import { defineFilePond } from "filepond";
 import { locale } from "filepond/locales/en-gb.js";
 
-// defines <file-pond> element
+// Defines <file-pond> custom element
 defineFilePond({
   locale,
 });
@@ -30,4 +30,19 @@ function handleSubmit(e: Event) {
   </form>
 </template>
 
-<style scoped></style>
+<style scoped>
+form {
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue",
+    sans-serif;
+}
+</style>
