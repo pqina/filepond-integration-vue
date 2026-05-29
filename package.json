@@ -1,9 +1,9 @@
 {
+    "private": true,
     "name": "filepond-integration-vue",
     "description": "Integration of FilePond in Vue",
     "author": "Rik Schennink",
     "version": "0.0.0",
-    "private": true,
     "type": "module",
     "scripts": {
         "dev": "vite",
@@ -13,7 +13,7 @@
         "type-check": "vue-tsc --build"
     },
     "dependencies": {
-        "filepond": "^5.0.0-beta.41",
+        "filepond": "^5.0.0-beta.49",
         "vue": "^3.5.32"
     },
     "devDependencies": {
